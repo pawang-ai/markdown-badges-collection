@@ -1,0 +1,43 @@
+name: Add a badge / Tambah badge
+description: Request a new technology badge / Usulkan badge teknologi baru
+title: "[Badge] "
+labels: ["badge", "enhancement"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name / Nama
+      description: Official product name, e.g. "Apache Kafka"
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Simple Icons slug
+      description: Find it at https://simpleicons.org (e.g. `apachekafka`). The logo must exist there.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / Kategori
+      options:
+        - Framework & Library
+        - Build Tool & Linter
+        - Programming Language & Runtime
+        - Database & Messaging
+        - DevOps & Infrastructure
+        - Operating System & Network
+        - Code Editor & Developer Tool
+        - Terminal
+        - CI
+        - Testing
+        - Platform, CMS & Service
+        - Other / Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Catatan
+      description: Anything else we should know (brand guidelines, alternative names).

@@ -1,0 +1,23 @@
+name: Bug report / Laporan bug
+description: A badge is broken, wrong or missing its logo / Badge rusak, salah, atau logonya hilang
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: badge
+    attributes:
+      label: Badge name / Nama badge
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong? / Apa yang salah?
+      description: Include the Markdown you used and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Where did you see it? / Di mana muncul?
+      description: GitHub README, profile, other site, browser.

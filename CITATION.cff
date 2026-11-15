@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this collection, please cite it as below."
+title: "markdown-badges-collection"
+abstract: "Copy-paste Shields.io badges for GitHub README and profile, with official brand colors and Simple Icons logos."
+type: dataset
+authors:
+  - name: "pawang-ai"
+    website: "https://github.com/pawang-ai"
+repository-code: "https://github.com/pawang-ai/markdown-badges-collection"
+url: "https://pawang-ai.github.io/markdown-badges-collection/"
+license: MIT
+version: 0.1.0
+date-released: "2026-11-16"
+keywords:
+  - readme badges
+  - markdown badges
+  - shields.io
+  - simple icons
+  - github profile

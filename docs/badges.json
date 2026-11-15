@@ -1,0 +1,2867 @@
+[
+  {
+    "id": "aframe",
+    "name": "A-Frame",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "aframe",
+    "hex": "EF2D5E",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/A--Frame-EF2D5E?logo=aframe&logoColor=white",
+    "markdown": "[![A-Frame](https://img.shields.io/badge/A--Frame-EF2D5E?logo=aframe&logoColor=white)](#)"
+  },
+  {
+    "id": "adonisjs",
+    "name": "AdonisJS",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "adonisjs",
+    "hex": "5A45FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/AdonisJS-5A45FF?logo=adonisjs&logoColor=white",
+    "markdown": "[![AdonisJS](https://img.shields.io/badge/AdonisJS-5A45FF?logo=adonisjs&logoColor=white)](#)"
+  },
+  {
+    "id": "antdesign",
+    "name": "Ant Design",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "antdesign",
+    "hex": "0170FE",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ant%20Design-0170FE?logo=antdesign&logoColor=white",
+    "markdown": "[![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?logo=antdesign&logoColor=white)](#)"
+  },
+  {
+    "id": "apachecordova",
+    "name": "Apache Cordova",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "apachecordova",
+    "hex": "E8E8E8",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Cordova-E8E8E8?logo=apachecordova&logoColor=black",
+    "markdown": "[![Apache Cordova](https://img.shields.io/badge/Apache%20Cordova-E8E8E8?logo=apachecordova&logoColor=black)](#)"
+  },
+  {
+    "id": "axios",
+    "name": "Axios",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "axios",
+    "hex": "5A29E4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white",
+    "markdown": "[![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)](#)"
+  },
+  {
+    "id": "babylondotjs",
+    "name": "Babylon.js",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "babylondotjs",
+    "hex": "BB464B",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Babylon.js-BB464B?logo=babylondotjs&logoColor=white",
+    "markdown": "[![Babylon.js](https://img.shields.io/badge/Babylon.js-BB464B?logo=babylondotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "bulma",
+    "name": "Bulma",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "bulma",
+    "hex": "00D1B2",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Bulma-00D1B2?logo=bulma&logoColor=white",
+    "markdown": "[![Bulma](https://img.shields.io/badge/Bulma-00D1B2?logo=bulma&logoColor=white)](#)"
+  },
+  {
+    "id": "cakephp",
+    "name": "CakePHP",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "cakephp",
+    "hex": "D33C43",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/CakePHP-D33C43?logo=cakephp&logoColor=white",
+    "markdown": "[![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?logo=cakephp&logoColor=white)](#)"
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "capacitor",
+    "hex": "119EFF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Capacitor-119EFF?logo=capacitor&logoColor=white",
+    "markdown": "[![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?logo=capacitor&logoColor=white)](#)"
+  },
+  {
+    "id": "chakraui",
+    "name": "Chakra UI",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "chakraui",
+    "hex": "1BB2A9",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Chakra%20UI-1BB2A9?logo=chakraui&logoColor=white",
+    "markdown": "[![Chakra UI](https://img.shields.io/badge/Chakra%20UI-1BB2A9?logo=chakraui&logoColor=white)](#)"
+  },
+  {
+    "id": "codeigniter",
+    "name": "CodeIgniter",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "codeigniter",
+    "hex": "EF4223",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/CodeIgniter-EF4223?logo=codeigniter&logoColor=white",
+    "markdown": "[![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?logo=codeigniter&logoColor=white)](#)"
+  },
+  {
+    "id": "contao",
+    "name": "Contao",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "contao",
+    "hex": "F47C00",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Contao-F47C00?logo=contao&logoColor=white",
+    "markdown": "[![Contao](https://img.shields.io/badge/Contao-F47C00?logo=contao&logoColor=white)](#)"
+  },
+  {
+    "id": "d3",
+    "name": "D3",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "d3",
+    "hex": "F9A03C",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/D3-F9A03C?logo=d3&logoColor=black",
+    "markdown": "[![D3](https://img.shields.io/badge/D3-F9A03C?logo=d3&logoColor=black)](#)"
+  },
+  {
+    "id": "doctrine",
+    "name": "Doctrine",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "doctrine",
+    "hex": "FC6A31",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Doctrine-FC6A31?logo=doctrine&logoColor=white",
+    "markdown": "[![Doctrine](https://img.shields.io/badge/Doctrine-FC6A31?logo=doctrine&logoColor=white)](#)"
+  },
+  {
+    "id": "drupal",
+    "name": "Drupal",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "drupal",
+    "hex": "0678BE",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Drupal-0678BE?logo=drupal&logoColor=white",
+    "markdown": "[![Drupal](https://img.shields.io/badge/Drupal-0678BE?logo=drupal&logoColor=white)](#)"
+  },
+  {
+    "id": "eclipsevertdotx",
+    "name": "Eclipse Vert.x",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "eclipsevertdotx",
+    "hex": "782A90",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Eclipse%20Vert.x-782A90?logo=eclipsevertdotx&logoColor=white",
+    "markdown": "[![Eclipse Vert.x](https://img.shields.io/badge/Eclipse%20Vert.x-782A90?logo=eclipsevertdotx&logoColor=white)](#)"
+  },
+  {
+    "id": "filament",
+    "name": "Filament",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "filament",
+    "hex": "FDAE4B",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Filament-FDAE4B?logo=filament&logoColor=black",
+    "markdown": "[![Filament](https://img.shields.io/badge/Filament-FDAE4B?logo=filament&logoColor=black)](#)"
+  },
+  {
+    "id": "handlebarsdotjs",
+    "name": "Handlebars.js",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "handlebarsdotjs",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Handlebars.js-000000?logo=handlebarsdotjs&logoColor=white",
+    "markdown": "[![Handlebars.js](https://img.shields.io/badge/Handlebars.js-000000?logo=handlebarsdotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "jetpackcompose",
+    "name": "Jetpack Compose",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "jetpackcompose",
+    "hex": "4285F4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white",
+    "markdown": "[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)](#)"
+  },
+  {
+    "id": "jhipster",
+    "name": "JHipster",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "jhipster",
+    "hex": "3E8ACC",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/JHipster-3E8ACC?logo=jhipster&logoColor=white",
+    "markdown": "[![JHipster](https://img.shields.io/badge/JHipster-3E8ACC?logo=jhipster&logoColor=white)](#)"
+  },
+  {
+    "id": "knexdotjs",
+    "name": "Knex.js",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "knexdotjs",
+    "hex": "D26B38",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Knex.js-D26B38?logo=knexdotjs&logoColor=white",
+    "markdown": "[![Knex.js](https://img.shields.io/badge/Knex.js-D26B38?logo=knexdotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "ktor",
+    "name": "Ktor",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "ktor",
+    "hex": "087CFA",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ktor-087CFA?logo=ktor&logoColor=white",
+    "markdown": "[![Ktor](https://img.shields.io/badge/Ktor-087CFA?logo=ktor&logoColor=white)](#)"
+  },
+  {
+    "id": "livewire",
+    "name": "Livewire",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "livewire",
+    "hex": "4E56A6",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Livewire-4E56A6?logo=livewire&logoColor=white",
+    "markdown": "[![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logo=livewire&logoColor=white)](#)"
+  },
+  {
+    "id": "lodash",
+    "name": "Lodash",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "lodash",
+    "hex": "3492FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Lodash-3492FF?logo=lodash&logoColor=white",
+    "markdown": "[![Lodash](https://img.shields.io/badge/Lodash-3492FF?logo=lodash&logoColor=white)](#)"
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "lumen",
+    "hex": "E74430",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Lumen-E74430?logo=lumen&logoColor=white",
+    "markdown": "[![Lumen](https://img.shields.io/badge/Lumen-E74430?logo=lumen&logoColor=white)](#)"
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "mapbox",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Mapbox-000000?logo=mapbox&logoColor=white",
+    "markdown": "[![Mapbox](https://img.shields.io/badge/Mapbox-000000?logo=mapbox&logoColor=white)](#)"
+  },
+  {
+    "id": "mobx",
+    "name": "MobX",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "mobx",
+    "hex": "FF9955",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/MobX-FF9955?logo=mobx&logoColor=black",
+    "markdown": "[![MobX](https://img.shields.io/badge/MobX-FF9955?logo=mobx&logoColor=black)](#)"
+  },
+  {
+    "id": "moleculer",
+    "name": "Moleculer",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "moleculer",
+    "hex": "3CAFCE",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Moleculer-3CAFCE?logo=moleculer&logoColor=white",
+    "markdown": "[![Moleculer](https://img.shields.io/badge/Moleculer-3CAFCE?logo=moleculer&logoColor=white)](#)"
+  },
+  {
+    "id": "mongoose",
+    "name": "Mongoose",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "mongoose",
+    "hex": "880000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white",
+    "markdown": "[![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)](#)"
+  },
+  {
+    "id": "ngrx",
+    "name": "NgRx",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "ngrx",
+    "hex": "BA2BD2",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/NgRx-BA2BD2?logo=ngrx&logoColor=white",
+    "markdown": "[![NgRx](https://img.shields.io/badge/NgRx-BA2BD2?logo=ngrx&logoColor=white)](#)"
+  },
+  {
+    "id": "p5dotjs",
+    "name": "p5.js",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "p5dotjs",
+    "hex": "ED225D",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/p5.js-ED225D?logo=p5dotjs&logoColor=white",
+    "markdown": "[![p5.js](https://img.shields.io/badge/p5.js-ED225D?logo=p5dotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "passport",
+    "name": "Passport",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "passport",
+    "hex": "34E27A",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Passport-34E27A?logo=passport&logoColor=black",
+    "markdown": "[![Passport](https://img.shields.io/badge/Passport-34E27A?logo=passport&logoColor=black)](#)"
+  },
+  {
+    "id": "payloadcms",
+    "name": "Payload CMS",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "payloadcms",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Payload%20CMS-000000?logo=payloadcms&logoColor=white",
+    "markdown": "[![Payload CMS](https://img.shields.io/badge/Payload%20CMS-000000?logo=payloadcms&logoColor=white)](#)"
+  },
+  {
+    "id": "phoenixframework",
+    "name": "Phoenix Framework",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "phoenixframework",
+    "hex": "FD4F00",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Phoenix%20Framework-FD4F00?logo=phoenixframework&logoColor=white",
+    "markdown": "[![Phoenix Framework](https://img.shields.io/badge/Phoenix%20Framework-FD4F00?logo=phoenixframework&logoColor=white)](#)"
+  },
+  {
+    "id": "plotly",
+    "name": "Plotly",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "plotly",
+    "hex": "7A76FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Plotly-7A76FF?logo=plotly&logoColor=white",
+    "markdown": "[![Plotly](https://img.shields.io/badge/Plotly-7A76FF?logo=plotly&logoColor=white)](#)"
+  },
+  {
+    "id": "primeng",
+    "name": "PrimeNG",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "primeng",
+    "hex": "DD0031",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/PrimeNG-DD0031?logo=primeng&logoColor=white",
+    "markdown": "[![PrimeNG](https://img.shields.io/badge/PrimeNG-DD0031?logo=primeng&logoColor=white)](#)"
+  },
+  {
+    "id": "processwire",
+    "name": "ProcessWire",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "processwire",
+    "hex": "2480E6",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/ProcessWire-2480E6?logo=processwire&logoColor=white",
+    "markdown": "[![ProcessWire](https://img.shields.io/badge/ProcessWire-2480E6?logo=processwire&logoColor=white)](#)"
+  },
+  {
+    "id": "pug",
+    "name": "Pug",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "pug",
+    "hex": "A86454",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Pug-A86454?logo=pug&logoColor=white",
+    "markdown": "[![Pug](https://img.shields.io/badge/Pug-A86454?logo=pug&logoColor=white)](#)"
+  },
+  {
+    "id": "quarkus",
+    "name": "Quarkus",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "quarkus",
+    "hex": "4695EB",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Quarkus-4695EB?logo=quarkus&logoColor=white",
+    "markdown": "[![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?logo=quarkus&logoColor=white)](#)"
+  },
+  {
+    "id": "quasar",
+    "name": "Quasar",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "quasar",
+    "hex": "050A14",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Quasar-050A14?logo=quasar&logoColor=white",
+    "markdown": "[![Quasar](https://img.shields.io/badge/Quasar-050A14?logo=quasar&logoColor=white)](#)"
+  },
+  {
+    "id": "reactbootstrap",
+    "name": "React Bootstrap",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "reactbootstrap",
+    "hex": "41E0FD",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/React%20Bootstrap-41E0FD?logo=reactbootstrap&logoColor=black",
+    "markdown": "[![React Bootstrap](https://img.shields.io/badge/React%20Bootstrap-41E0FD?logo=reactbootstrap&logoColor=black)](#)"
+  },
+  {
+    "id": "reflex",
+    "name": "Reflex",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "reflex",
+    "hex": "6E56CF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Reflex-6E56CF?logo=reflex&logoColor=white",
+    "markdown": "[![Reflex](https://img.shields.io/badge/Reflex-6E56CF?logo=reflex&logoColor=white)](#)"
+  },
+  {
+    "id": "socketdotio",
+    "name": "Socket.io",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "socketdotio",
+    "hex": "010101",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Socket.io-010101?logo=socketdotio&logoColor=white",
+    "markdown": "[![Socket.io](https://img.shields.io/badge/Socket.io-010101?logo=socketdotio&logoColor=white)](#)"
+  },
+  {
+    "id": "stencil",
+    "name": "Stencil",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "stencil",
+    "hex": "5530FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Stencil-5530FF?logo=stencil&logoColor=white",
+    "markdown": "[![Stencil](https://img.shields.io/badge/Stencil-5530FF?logo=stencil&logoColor=white)](#)"
+  },
+  {
+    "id": "stimulus",
+    "name": "Stimulus",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "stimulus",
+    "hex": "77E8B9",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Stimulus-77E8B9?logo=stimulus&logoColor=black",
+    "markdown": "[![Stimulus](https://img.shields.io/badge/Stimulus-77E8B9?logo=stimulus&logoColor=black)](#)"
+  },
+  {
+    "id": "swiper",
+    "name": "Swiper",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "swiper",
+    "hex": "6332F6",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=white",
+    "markdown": "[![Swiper](https://img.shields.io/badge/Swiper-6332F6?logo=swiper&logoColor=white)](#)"
+  },
+  {
+    "id": "thymeleaf",
+    "name": "Thymeleaf",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "thymeleaf",
+    "hex": "005F0F",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Thymeleaf-005F0F?logo=thymeleaf&logoColor=white",
+    "markdown": "[![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?logo=thymeleaf&logoColor=white)](#)"
+  },
+  {
+    "id": "trpc",
+    "name": "tRPC",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "trpc",
+    "hex": "2596BE",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/tRPC-2596BE?logo=trpc&logoColor=white",
+    "markdown": "[![tRPC](https://img.shields.io/badge/tRPC-2596BE?logo=trpc&logoColor=white)](#)"
+  },
+  {
+    "id": "turbo",
+    "name": "Turbo",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "turbo",
+    "hex": "5CD8E5",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Turbo-5CD8E5?logo=turbo&logoColor=black",
+    "markdown": "[![Turbo](https://img.shields.io/badge/Turbo-5CD8E5?logo=turbo&logoColor=black)](#)"
+  },
+  {
+    "id": "typo3",
+    "name": "TYPO3",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "typo3",
+    "hex": "FF8700",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/TYPO3-FF8700?logo=typo3&logoColor=white",
+    "markdown": "[![TYPO3](https://img.shields.io/badge/TYPO3-FF8700?logo=typo3&logoColor=white)](#)"
+  },
+  {
+    "id": "vaadin",
+    "name": "Vaadin",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "vaadin",
+    "hex": "00B4F0",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vaadin-00B4F0?logo=vaadin&logoColor=white",
+    "markdown": "[![Vaadin](https://img.shields.io/badge/Vaadin-00B4F0?logo=vaadin&logoColor=white)](#)"
+  },
+  {
+    "id": "vapor",
+    "name": "Vapor",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "vapor",
+    "hex": "0D0D0D",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vapor-0D0D0D?logo=vapor&logoColor=white",
+    "markdown": "[![Vapor](https://img.shields.io/badge/Vapor-0D0D0D?logo=vapor&logoColor=white)](#)"
+  },
+  {
+    "id": "web3dotjs",
+    "name": "Web3.js",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "web3dotjs",
+    "hex": "F16822",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Web3.js-F16822?logo=web3dotjs&logoColor=white",
+    "markdown": "[![Web3.js](https://img.shields.io/badge/Web3.js-F16822?logo=web3dotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "yii",
+    "name": "Yii",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "yii",
+    "hex": "40B3D8",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Yii-40B3D8?logo=yii&logoColor=white",
+    "markdown": "[![Yii](https://img.shields.io/badge/Yii-40B3D8?logo=yii&logoColor=white)](#)"
+  },
+  {
+    "id": "zend",
+    "name": "Zend",
+    "category": "framework",
+    "category_name": {
+      "en": "Framework & Library",
+      "id": "Framework & Pustaka"
+    },
+    "slug": "zend",
+    "hex": "0679EA",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Zend-0679EA?logo=zend&logoColor=white",
+    "markdown": "[![Zend](https://img.shields.io/badge/Zend-0679EA?logo=zend&logoColor=white)](#)"
+  },
+  {
+    "id": "apachemaven",
+    "name": "Apache Maven",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "apachemaven",
+    "hex": "C71A36",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Maven-C71A36?logo=apachemaven&logoColor=white",
+    "markdown": "[![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?logo=apachemaven&logoColor=white)](#)"
+  },
+  {
+    "id": "bazel",
+    "name": "Bazel",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "bazel",
+    "hex": "43A047",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Bazel-43A047?logo=bazel&logoColor=white",
+    "markdown": "[![Bazel](https://img.shields.io/badge/Bazel-43A047?logo=bazel&logoColor=white)](#)"
+  },
+  {
+    "id": "biome",
+    "name": "Biome",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "biome",
+    "hex": "60A5FA",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Biome-60A5FA?logo=biome&logoColor=white",
+    "markdown": "[![Biome](https://img.shields.io/badge/Biome-60A5FA?logo=biome&logoColor=white)](#)"
+  },
+  {
+    "id": "bower",
+    "name": "Bower",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "bower",
+    "hex": "EF5734",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Bower-EF5734?logo=bower&logoColor=white",
+    "markdown": "[![Bower](https://img.shields.io/badge/Bower-EF5734?logo=bower&logoColor=white)](#)"
+  },
+  {
+    "id": "cmake",
+    "name": "CMake",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "cmake",
+    "hex": "064F8C",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white",
+    "markdown": "[![CMake](https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white)](#)"
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "eslint",
+    "hex": "4B32C3",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white",
+    "markdown": "[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)](#)"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "gradle",
+    "hex": "02303A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white",
+    "markdown": "[![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white)](#)"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "grunt",
+    "hex": "FAA918",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Grunt-FAA918?logo=grunt&logoColor=black",
+    "markdown": "[![Grunt](https://img.shields.io/badge/Grunt-FAA918?logo=grunt&logoColor=black)](#)"
+  },
+  {
+    "id": "gulp",
+    "name": "gulp",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "gulp",
+    "hex": "CF4647",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/gulp-CF4647?logo=gulp&logoColor=white",
+    "markdown": "[![gulp](https://img.shields.io/badge/gulp-CF4647?logo=gulp&logoColor=white)](#)"
+  },
+  {
+    "id": "poetry",
+    "name": "Poetry",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "poetry",
+    "hex": "60A5FA",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Poetry-60A5FA?logo=poetry&logoColor=white",
+    "markdown": "[![Poetry](https://img.shields.io/badge/Poetry-60A5FA?logo=poetry&logoColor=white)](#)"
+  },
+  {
+    "id": "postcss",
+    "name": "PostCSS",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "postcss",
+    "hex": "DD3A0A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/PostCSS-DD3A0A?logo=postcss&logoColor=white",
+    "markdown": "[![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?logo=postcss&logoColor=white)](#)"
+  },
+  {
+    "id": "rollupdotjs",
+    "name": "rollup.js",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "rollupdotjs",
+    "hex": "EC4A3F",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/rollup.js-EC4A3F?logo=rollupdotjs&logoColor=white",
+    "markdown": "[![rollup.js](https://img.shields.io/badge/rollup.js-EC4A3F?logo=rollupdotjs&logoColor=white)](#)"
+  },
+  {
+    "id": "svgo",
+    "name": "SVGO",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "svgo",
+    "hex": "3E7FC1",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/SVGO-3E7FC1?logo=svgo&logoColor=white",
+    "markdown": "[![SVGO](https://img.shields.io/badge/SVGO-3E7FC1?logo=svgo&logoColor=white)](#)"
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "category": "build-tool",
+    "category_name": {
+      "en": "Build Tool & Linter",
+      "id": "Build Tool & Linter"
+    },
+    "slug": "webpack",
+    "hex": "8DD6F9",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=black",
+    "markdown": "[![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=black)](#)"
+  },
+  {
+    "id": "apachegroovy",
+    "name": "Apache Groovy",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "apachegroovy",
+    "hex": "4298B8",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Groovy-4298B8?logo=apachegroovy&logoColor=white",
+    "markdown": "[![Apache Groovy](https://img.shields.io/badge/Apache%20Groovy-4298B8?logo=apachegroovy&logoColor=white)](#)"
+  },
+  {
+    "id": "delphi",
+    "name": "Delphi",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "delphi",
+    "hex": "E62431",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Delphi-E62431?logo=delphi&logoColor=white",
+    "markdown": "[![Delphi](https://img.shields.io/badge/Delphi-E62431?logo=delphi&logoColor=white)](#)"
+  },
+  {
+    "id": "llvm",
+    "name": "LLVM",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "llvm",
+    "hex": "262D3A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/LLVM-262D3A?logo=llvm&logoColor=white",
+    "markdown": "[![LLVM](https://img.shields.io/badge/LLVM-262D3A?logo=llvm&logoColor=white)](#)"
+  },
+  {
+    "id": "luau",
+    "name": "Luau",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "luau",
+    "hex": "00A2FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Luau-00A2FF?logo=luau&logoColor=white",
+    "markdown": "[![Luau](https://img.shields.io/badge/Luau-00A2FF?logo=luau&logoColor=white)](#)"
+  },
+  {
+    "id": "purescript",
+    "name": "PureScript",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "purescript",
+    "hex": "14161A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/PureScript-14161A?logo=purescript&logoColor=white",
+    "markdown": "[![PureScript](https://img.shields.io/badge/PureScript-14161A?logo=purescript&logoColor=white)](#)"
+  },
+  {
+    "id": "racket",
+    "name": "Racket",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "racket",
+    "hex": "9F1D20",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white",
+    "markdown": "[![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white)](#)"
+  },
+  {
+    "id": "uml",
+    "name": "UML",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "uml",
+    "hex": "FABD14",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/UML-FABD14?logo=uml&logoColor=black",
+    "markdown": "[![UML](https://img.shields.io/badge/UML-FABD14?logo=uml&logoColor=black)](#)"
+  },
+  {
+    "id": "v8",
+    "name": "V8",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "v8",
+    "hex": "4B8BF5",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/V8-4B8BF5?logo=v8&logoColor=white",
+    "markdown": "[![V8](https://img.shields.io/badge/V8-4B8BF5?logo=v8&logoColor=white)](#)"
+  },
+  {
+    "id": "vala",
+    "name": "Vala",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "vala",
+    "hex": "7239B3",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vala-7239B3?logo=vala&logoColor=white",
+    "markdown": "[![Vala](https://img.shields.io/badge/Vala-7239B3?logo=vala&logoColor=white)](#)"
+  },
+  {
+    "id": "webgpu",
+    "name": "WebGPU",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "webgpu",
+    "hex": "005A9C",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/WebGPU-005A9C?logo=webgpu&logoColor=white",
+    "markdown": "[![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?logo=webgpu&logoColor=white)](#)"
+  },
+  {
+    "id": "wolfram",
+    "name": "Wolfram",
+    "category": "language",
+    "category_name": {
+      "en": "Programming Language & Runtime",
+      "id": "Bahasa Pemrograman & Runtime"
+    },
+    "slug": "wolfram",
+    "hex": "DD1100",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Wolfram-DD1100?logo=wolfram&logoColor=white",
+    "markdown": "[![Wolfram](https://img.shields.io/badge/Wolfram-DD1100?logo=wolfram&logoColor=white)](#)"
+  },
+  {
+    "id": "apachehadoop",
+    "name": "Apache Hadoop",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "apachehadoop",
+    "hex": "66CCFF",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Hadoop-66CCFF?logo=apachehadoop&logoColor=black",
+    "markdown": "[![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?logo=apachehadoop&logoColor=black)](#)"
+  },
+  {
+    "id": "apachekafka",
+    "name": "Apache Kafka",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "apachekafka",
+    "hex": "231F20",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white",
+    "markdown": "[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white)](#)"
+  },
+  {
+    "id": "beats",
+    "name": "Beats",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "beats",
+    "hex": "005571",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Beats-005571?logo=beats&logoColor=white",
+    "markdown": "[![Beats](https://img.shields.io/badge/Beats-005571?logo=beats&logoColor=white)](#)"
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "clickhouse",
+    "hex": "FFCC01",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black",
+    "markdown": "[![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=black)](#)"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "duckdb",
+    "hex": "FFF000",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black",
+    "markdown": "[![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)](#)"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "elasticsearch",
+    "hex": "005571",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white",
+    "markdown": "[![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white)](#)"
+  },
+  {
+    "id": "flyway",
+    "name": "Flyway",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "flyway",
+    "hex": "CC0200",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Flyway-CC0200?logo=flyway&logoColor=white",
+    "markdown": "[![Flyway](https://img.shields.io/badge/Flyway-CC0200?logo=flyway&logoColor=white)](#)"
+  },
+  {
+    "id": "liquibase",
+    "name": "Liquibase",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "liquibase",
+    "hex": "2962FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Liquibase-2962FF?logo=liquibase&logoColor=white",
+    "markdown": "[![Liquibase](https://img.shields.io/badge/Liquibase-2962FF?logo=liquibase&logoColor=white)](#)"
+  },
+  {
+    "id": "logstash",
+    "name": "Logstash",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "logstash",
+    "hex": "005571",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Logstash-005571?logo=logstash&logoColor=white",
+    "markdown": "[![Logstash](https://img.shields.io/badge/Logstash-005571?logo=logstash&logoColor=white)](#)"
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "metabase",
+    "hex": "509EE3",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=white",
+    "markdown": "[![Metabase](https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=white)](#)"
+  },
+  {
+    "id": "natsdotio",
+    "name": "NATS.io",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "natsdotio",
+    "hex": "27AAE1",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/NATS.io-27AAE1?logo=natsdotio&logoColor=white",
+    "markdown": "[![NATS.io](https://img.shields.io/badge/NATS.io-27AAE1?logo=natsdotio&logoColor=white)](#)"
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "rabbitmq",
+    "hex": "FF6600",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white",
+    "markdown": "[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)](#)"
+  },
+  {
+    "id": "rocksdb",
+    "name": "RocksDB",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "rocksdb",
+    "hex": "2A2A2A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/RocksDB-2A2A2A?logo=rocksdb&logoColor=white",
+    "markdown": "[![RocksDB](https://img.shields.io/badge/RocksDB-2A2A2A?logo=rocksdb&logoColor=white)](#)"
+  },
+  {
+    "id": "sqlalchemy",
+    "name": "SQLAlchemy",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "sqlalchemy",
+    "hex": "D71F00",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white",
+    "markdown": "[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)](#)"
+  },
+  {
+    "id": "surrealdb",
+    "name": "SurrealDB",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "surrealdb",
+    "hex": "FF00A0",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/SurrealDB-FF00A0?logo=surrealdb&logoColor=white",
+    "markdown": "[![SurrealDB](https://img.shields.io/badge/SurrealDB-FF00A0?logo=surrealdb&logoColor=white)](#)"
+  },
+  {
+    "id": "vitess",
+    "name": "Vitess",
+    "category": "database",
+    "category_name": {
+      "en": "Database & Messaging",
+      "id": "Database & Messaging"
+    },
+    "slug": "vitess",
+    "hex": "F16728",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vitess-F16728?logo=vitess&logoColor=white",
+    "markdown": "[![Vitess](https://img.shields.io/badge/Vitess-F16728?logo=vitess&logoColor=white)](#)"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "ansible",
+    "hex": "EE0000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white",
+    "markdown": "[![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white)](#)"
+  },
+  {
+    "id": "apachetomcat",
+    "name": "Apache Tomcat",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "apachetomcat",
+    "hex": "F8DC75",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Apache%20Tomcat-F8DC75?logo=apachetomcat&logoColor=black",
+    "markdown": "[![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?logo=apachetomcat&logoColor=black)](#)"
+  },
+  {
+    "id": "aspire",
+    "name": "Aspire",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "aspire",
+    "hex": "7455DD",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Aspire-7455DD?logo=aspire&logoColor=white",
+    "markdown": "[![Aspire](https://img.shields.io/badge/Aspire-7455DD?logo=aspire&logoColor=white)](#)"
+  },
+  {
+    "id": "ceph",
+    "name": "Ceph",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "ceph",
+    "hex": "EF5C55",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ceph-EF5C55?logo=ceph&logoColor=white",
+    "markdown": "[![Ceph](https://img.shields.io/badge/Ceph-EF5C55?logo=ceph&logoColor=white)](#)"
+  },
+  {
+    "id": "consul",
+    "name": "Consul",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "consul",
+    "hex": "F24C53",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Consul-F24C53?logo=consul&logoColor=white",
+    "markdown": "[![Consul](https://img.shields.io/badge/Consul-F24C53?logo=consul&logoColor=white)](#)"
+  },
+  {
+    "id": "cpanel",
+    "name": "cPanel",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "cpanel",
+    "hex": "FF6C2C",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/cPanel-FF6C2C?logo=cpanel&logoColor=white",
+    "markdown": "[![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?logo=cpanel&logoColor=white)](#)"
+  },
+  {
+    "id": "dynatrace",
+    "name": "Dynatrace",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "dynatrace",
+    "hex": "1496FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Dynatrace-1496FF?logo=dynatrace&logoColor=white",
+    "markdown": "[![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?logo=dynatrace&logoColor=white)](#)"
+  },
+  {
+    "id": "envoyproxy",
+    "name": "Envoy Proxy",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "envoyproxy",
+    "hex": "AC6199",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Envoy%20Proxy-AC6199?logo=envoyproxy&logoColor=white",
+    "markdown": "[![Envoy Proxy](https://img.shields.io/badge/Envoy%20Proxy-AC6199?logo=envoyproxy&logoColor=white)](#)"
+  },
+  {
+    "id": "haproxy",
+    "name": "HAProxy",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "haproxy",
+    "hex": "169BD6",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/HAProxy-169BD6?logo=haproxy&logoColor=white",
+    "markdown": "[![HAProxy](https://img.shields.io/badge/HAProxy-169BD6?logo=haproxy&logoColor=white)](#)"
+  },
+  {
+    "id": "harbor",
+    "name": "Harbor",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "harbor",
+    "hex": "60B932",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Harbor-60B932?logo=harbor&logoColor=white",
+    "markdown": "[![Harbor](https://img.shields.io/badge/Harbor-60B932?logo=harbor&logoColor=white)](#)"
+  },
+  {
+    "id": "icinga",
+    "name": "Icinga",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "icinga",
+    "hex": "06062C",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Icinga-06062C?logo=icinga&logoColor=white",
+    "markdown": "[![Icinga](https://img.shields.io/badge/Icinga-06062C?logo=icinga&logoColor=white)](#)"
+  },
+  {
+    "id": "istio",
+    "name": "Istio",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "istio",
+    "hex": "466BB0",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white",
+    "markdown": "[![Istio](https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white)](#)"
+  },
+  {
+    "id": "jaeger",
+    "name": "Jaeger",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "jaeger",
+    "hex": "66CFE3",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Jaeger-66CFE3?logo=jaeger&logoColor=black",
+    "markdown": "[![Jaeger](https://img.shields.io/badge/Jaeger-66CFE3?logo=jaeger&logoColor=black)](#)"
+  },
+  {
+    "id": "k3s",
+    "name": "K3s",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "k3s",
+    "hex": "FFC61C",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/K3s-FFC61C?logo=k3s&logoColor=black",
+    "markdown": "[![K3s](https://img.shields.io/badge/K3s-FFC61C?logo=k3s&logoColor=black)](#)"
+  },
+  {
+    "id": "newrelic",
+    "name": "New Relic",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "newrelic",
+    "hex": "1CE783",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/New%20Relic-1CE783?logo=newrelic&logoColor=white",
+    "markdown": "[![New Relic](https://img.shields.io/badge/New%20Relic-1CE783?logo=newrelic&logoColor=white)](#)"
+  },
+  {
+    "id": "ngrok",
+    "name": "ngrok",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "ngrok",
+    "hex": "1F1E37",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/ngrok-1F1E37?logo=ngrok&logoColor=white",
+    "markdown": "[![ngrok](https://img.shields.io/badge/ngrok-1F1E37?logo=ngrok&logoColor=white)](#)"
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "nomad",
+    "hex": "00CA8E",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Nomad-00CA8E?logo=nomad&logoColor=white",
+    "markdown": "[![Nomad](https://img.shields.io/badge/Nomad-00CA8E?logo=nomad&logoColor=white)](#)"
+  },
+  {
+    "id": "openstack",
+    "name": "OpenStack",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "openstack",
+    "hex": "ED1944",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/OpenStack-ED1944?logo=openstack&logoColor=white",
+    "markdown": "[![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?logo=openstack&logoColor=white)](#)"
+  },
+  {
+    "id": "packer",
+    "name": "Packer",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "packer",
+    "hex": "02A8EF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Packer-02A8EF?logo=packer&logoColor=white",
+    "markdown": "[![Packer](https://img.shields.io/badge/Packer-02A8EF?logo=packer&logoColor=white)](#)"
+  },
+  {
+    "id": "podman",
+    "name": "Podman",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "podman",
+    "hex": "892CA0",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Podman-892CA0?logo=podman&logoColor=white",
+    "markdown": "[![Podman](https://img.shields.io/badge/Podman-892CA0?logo=podman&logoColor=white)](#)"
+  },
+  {
+    "id": "proxmox",
+    "name": "Proxmox",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "proxmox",
+    "hex": "E57000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white",
+    "markdown": "[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white)](#)"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "pulumi",
+    "hex": "8A3391",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Pulumi-8A3391?logo=pulumi&logoColor=white",
+    "markdown": "[![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?logo=pulumi&logoColor=white)](#)"
+  },
+  {
+    "id": "rancher",
+    "name": "Rancher",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "rancher",
+    "hex": "0075A8",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Rancher-0075A8?logo=rancher&logoColor=white",
+    "markdown": "[![Rancher](https://img.shields.io/badge/Rancher-0075A8?logo=rancher&logoColor=white)](#)"
+  },
+  {
+    "id": "talos",
+    "name": "Talos",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "talos",
+    "hex": "FF7300",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Talos-FF7300?logo=talos&logoColor=white",
+    "markdown": "[![Talos](https://img.shields.io/badge/Talos-FF7300?logo=talos&logoColor=white)](#)"
+  },
+  {
+    "id": "traefikmesh",
+    "name": "Traefik Mesh",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "traefikmesh",
+    "hex": "9D0FB0",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Traefik%20Mesh-9D0FB0?logo=traefikmesh&logoColor=white",
+    "markdown": "[![Traefik Mesh](https://img.shields.io/badge/Traefik%20Mesh-9D0FB0?logo=traefikmesh&logoColor=white)](#)"
+  },
+  {
+    "id": "traefikproxy",
+    "name": "Traefik Proxy",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "traefikproxy",
+    "hex": "24A1C1",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Traefik%20Proxy-24A1C1?logo=traefikproxy&logoColor=white",
+    "markdown": "[![Traefik Proxy](https://img.shields.io/badge/Traefik%20Proxy-24A1C1?logo=traefikproxy&logoColor=white)](#)"
+  },
+  {
+    "id": "vagrant",
+    "name": "Vagrant",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "vagrant",
+    "hex": "1868F2",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vagrant-1868F2?logo=vagrant&logoColor=white",
+    "markdown": "[![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?logo=vagrant&logoColor=white)](#)"
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "category": "devops",
+    "category_name": {
+      "en": "DevOps & Infrastructure",
+      "id": "DevOps & Infrastruktur"
+    },
+    "slug": "vault",
+    "hex": "FFEC6E",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Vault-FFEC6E?logo=vault&logoColor=black",
+    "markdown": "[![Vault](https://img.shields.io/badge/Vault-FFEC6E?logo=vault&logoColor=black)](#)"
+  },
+  {
+    "id": "dovecot",
+    "name": "Dovecot",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "dovecot",
+    "hex": "54BCAB",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Dovecot-54BCAB?logo=dovecot&logoColor=white",
+    "markdown": "[![Dovecot](https://img.shields.io/badge/Dovecot-54BCAB?logo=dovecot&logoColor=white)](#)"
+  },
+  {
+    "id": "kdeneon",
+    "name": "KDE neon",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "kdeneon",
+    "hex": "3DC08D",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/KDE%20neon-3DC08D?logo=kdeneon&logoColor=white",
+    "markdown": "[![KDE neon](https://img.shields.io/badge/KDE%20neon-3DC08D?logo=kdeneon&logoColor=white)](#)"
+  },
+  {
+    "id": "opensuse",
+    "name": "openSUSE",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "opensuse",
+    "hex": "73BA25",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/openSUSE-73BA25?logo=opensuse&logoColor=white",
+    "markdown": "[![openSUSE](https://img.shields.io/badge/openSUSE-73BA25?logo=opensuse&logoColor=white)](#)"
+  },
+  {
+    "id": "opnsense",
+    "name": "OPNsense",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "opnsense",
+    "hex": "E44A20",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/OPNsense-E44A20?logo=opnsense&logoColor=white",
+    "markdown": "[![OPNsense](https://img.shields.io/badge/OPNsense-E44A20?logo=opnsense&logoColor=white)](#)"
+  },
+  {
+    "id": "pfsense",
+    "name": "pfSense",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "pfsense",
+    "hex": "212121",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white",
+    "markdown": "[![pfSense](https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white)](#)"
+  },
+  {
+    "id": "redhat",
+    "name": "Red Hat",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "redhat",
+    "hex": "EE0000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Red%20Hat-EE0000?logo=redhat&logoColor=white",
+    "markdown": "[![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?logo=redhat&logoColor=white)](#)"
+  },
+  {
+    "id": "wireguard",
+    "name": "WireGuard",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "wireguard",
+    "hex": "88171A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/WireGuard-88171A?logo=wireguard&logoColor=white",
+    "markdown": "[![WireGuard](https://img.shields.io/badge/WireGuard-88171A?logo=wireguard&logoColor=white)](#)"
+  },
+  {
+    "id": "yunohost",
+    "name": "YunoHost",
+    "category": "os-network",
+    "category_name": {
+      "en": "Operating System & Network",
+      "id": "Sistem Operasi & Jaringan"
+    },
+    "slug": "yunohost",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/YunoHost-000000?logo=yunohost&logoColor=white",
+    "markdown": "[![YunoHost](https://img.shields.io/badge/YunoHost-000000?logo=yunohost&logoColor=white)](#)"
+  },
+  {
+    "id": "burpsuite",
+    "name": "Burp Suite",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "burpsuite",
+    "hex": "FF6633",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Burp%20Suite-FF6633?logo=burpsuite&logoColor=white",
+    "markdown": "[![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?logo=burpsuite&logoColor=white)](#)"
+  },
+  {
+    "id": "claudecode",
+    "name": "Claude Code",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "claudecode",
+    "hex": "D97757",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Claude%20Code-D97757?logo=claudecode&logoColor=white",
+    "markdown": "[![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?logo=claudecode&logoColor=white)](#)"
+  },
+  {
+    "id": "clion",
+    "name": "CLion",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "clion",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/CLion-000000?logo=clion&logoColor=white",
+    "markdown": "[![CLion](https://img.shields.io/badge/CLion-000000?logo=clion&logoColor=white)](#)"
+  },
+  {
+    "id": "datagrip",
+    "name": "DataGrip",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "datagrip",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/DataGrip-000000?logo=datagrip&logoColor=white",
+    "markdown": "[![DataGrip](https://img.shields.io/badge/DataGrip-000000?logo=datagrip&logoColor=white)](#)"
+  },
+  {
+    "id": "dbeaver",
+    "name": "DBeaver",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "dbeaver",
+    "hex": "382923",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/DBeaver-382923?logo=dbeaver&logoColor=white",
+    "markdown": "[![DBeaver](https://img.shields.io/badge/DBeaver-382923?logo=dbeaver&logoColor=white)](#)"
+  },
+  {
+    "id": "filezilla",
+    "name": "FileZilla",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "filezilla",
+    "hex": "BF0000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/FileZilla-BF0000?logo=filezilla&logoColor=white",
+    "markdown": "[![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?logo=filezilla&logoColor=white)](#)"
+  },
+  {
+    "id": "forgejo",
+    "name": "Forgejo",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "forgejo",
+    "hex": "FB923C",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Forgejo-FB923C?logo=forgejo&logoColor=black",
+    "markdown": "[![Forgejo](https://img.shields.io/badge/Forgejo-FB923C?logo=forgejo&logoColor=black)](#)"
+  },
+  {
+    "id": "gitkraken",
+    "name": "GitKraken",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "gitkraken",
+    "hex": "179287",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/GitKraken-179287?logo=gitkraken&logoColor=white",
+    "markdown": "[![GitKraken](https://img.shields.io/badge/GitKraken-179287?logo=gitkraken&logoColor=white)](#)"
+  },
+  {
+    "id": "gitter",
+    "name": "Gitter",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "gitter",
+    "hex": "ED1965",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Gitter-ED1965?logo=gitter&logoColor=white",
+    "markdown": "[![Gitter](https://img.shields.io/badge/Gitter-ED1965?logo=gitter&logoColor=white)](#)"
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "glitch",
+    "hex": "3333FF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Glitch-3333FF?logo=glitch&logoColor=white",
+    "markdown": "[![Glitch](https://img.shields.io/badge/Glitch-3333FF?logo=glitch&logoColor=white)](#)"
+  },
+  {
+    "id": "goland",
+    "name": "GoLand",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "goland",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/GoLand-000000?logo=goland&logoColor=white",
+    "markdown": "[![GoLand](https://img.shields.io/badge/GoLand-000000?logo=goland&logoColor=white)](#)"
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "hoppscotch",
+    "hex": "09090B",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Hoppscotch-09090B?logo=hoppscotch&logoColor=white",
+    "markdown": "[![Hoppscotch](https://img.shields.io/badge/Hoppscotch-09090B?logo=hoppscotch&logoColor=white)](#)"
+  },
+  {
+    "id": "jetbrains",
+    "name": "JetBrains",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "jetbrains",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/JetBrains-000000?logo=jetbrains&logoColor=white",
+    "markdown": "[![JetBrains](https://img.shields.io/badge/JetBrains-000000?logo=jetbrains&logoColor=white)](#)"
+  },
+  {
+    "id": "radstudio",
+    "name": "RAD Studio",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "radstudio",
+    "hex": "E62431",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/RAD%20Studio-E62431?logo=radstudio&logoColor=white",
+    "markdown": "[![RAD Studio](https://img.shields.io/badge/RAD%20Studio-E62431?logo=radstudio&logoColor=white)](#)"
+  },
+  {
+    "id": "rstudioide",
+    "name": "RStudio IDE",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "rstudioide",
+    "hex": "75AADB",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/RStudio%20IDE-75AADB?logo=rstudioide&logoColor=white",
+    "markdown": "[![RStudio IDE](https://img.shields.io/badge/RStudio%20IDE-75AADB?logo=rstudioide&logoColor=white)](#)"
+  },
+  {
+    "id": "rubymine",
+    "name": "RubyMine",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "rubymine",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/RubyMine-000000?logo=rubymine&logoColor=white",
+    "markdown": "[![RubyMine](https://img.shields.io/badge/RubyMine-000000?logo=rubymine&logoColor=white)](#)"
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "sketch",
+    "hex": "F7B500",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Sketch-F7B500?logo=sketch&logoColor=black",
+    "markdown": "[![Sketch](https://img.shields.io/badge/Sketch-F7B500?logo=sketch&logoColor=black)](#)"
+  },
+  {
+    "id": "sourcetree",
+    "name": "Sourcetree",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "sourcetree",
+    "hex": "0052CC",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Sourcetree-0052CC?logo=sourcetree&logoColor=white",
+    "markdown": "[![Sourcetree](https://img.shields.io/badge/Sourcetree-0052CC?logo=sourcetree&logoColor=white)](#)"
+  },
+  {
+    "id": "spyderide",
+    "name": "Spyder IDE",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "spyderide",
+    "hex": "8C0000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Spyder%20IDE-8C0000?logo=spyderide&logoColor=white",
+    "markdown": "[![Spyder IDE](https://img.shields.io/badge/Spyder%20IDE-8C0000?logo=spyderide&logoColor=white)](#)"
+  },
+  {
+    "id": "stackblitz",
+    "name": "StackBlitz",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "stackblitz",
+    "hex": "1269D3",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/StackBlitz-1269D3?logo=stackblitz&logoColor=white",
+    "markdown": "[![StackBlitz](https://img.shields.io/badge/StackBlitz-1269D3?logo=stackblitz&logoColor=white)](#)"
+  },
+  {
+    "id": "tower",
+    "name": "Tower",
+    "category": "editor-tools",
+    "category_name": {
+      "en": "Code Editor & Developer Tool",
+      "id": "Editor Kode & Alat Developer"
+    },
+    "slug": "tower",
+    "hex": "00CAF4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Tower-00CAF4?logo=tower&logoColor=white",
+    "markdown": "[![Tower](https://img.shields.io/badge/Tower-00CAF4?logo=tower&logoColor=white)](#)"
+  },
+  {
+    "id": "fishshell",
+    "name": "fish shell",
+    "category": "terminal",
+    "category_name": {
+      "en": "Terminal",
+      "id": "Terminal"
+    },
+    "slug": "fishshell",
+    "hex": "34C534",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/fish%20shell-34C534?logo=fishshell&logoColor=white",
+    "markdown": "[![fish shell](https://img.shields.io/badge/fish%20shell-34C534?logo=fishshell&logoColor=white)](#)"
+  },
+  {
+    "id": "nano",
+    "name": "Nano",
+    "category": "terminal",
+    "category_name": {
+      "en": "Terminal",
+      "id": "Terminal"
+    },
+    "slug": "nano",
+    "hex": "209CE9",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Nano-209CE9?logo=nano&logoColor=white",
+    "markdown": "[![Nano](https://img.shields.io/badge/Nano-209CE9?logo=nano&logoColor=white)](#)"
+  },
+  {
+    "id": "starship",
+    "name": "Starship",
+    "category": "terminal",
+    "category_name": {
+      "en": "Terminal",
+      "id": "Terminal"
+    },
+    "slug": "starship",
+    "hex": "DD0B78",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Starship-DD0B78?logo=starship&logoColor=white",
+    "markdown": "[![Starship](https://img.shields.io/badge/Starship-DD0B78?logo=starship&logoColor=white)](#)"
+  },
+  {
+    "id": "teamcity",
+    "name": "TeamCity",
+    "category": "ci",
+    "category_name": {
+      "en": "CI",
+      "id": "CI"
+    },
+    "slug": "teamcity",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/TeamCity-000000?logo=teamcity&logoColor=white",
+    "markdown": "[![TeamCity](https://img.shields.io/badge/TeamCity-000000?logo=teamcity&logoColor=white)](#)"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "category": "testing",
+    "category_name": {
+      "en": "Testing",
+      "id": "Pengujian"
+    },
+    "slug": "cucumber",
+    "hex": "23D96C",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Cucumber-23D96C?logo=cucumber&logoColor=white",
+    "markdown": "[![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?logo=cucumber&logoColor=white)](#)"
+  },
+  {
+    "id": "gatling",
+    "name": "Gatling",
+    "category": "testing",
+    "category_name": {
+      "en": "Testing",
+      "id": "Pengujian"
+    },
+    "slug": "gatling",
+    "hex": "FF9E2A",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Gatling-FF9E2A?logo=gatling&logoColor=black",
+    "markdown": "[![Gatling](https://img.shields.io/badge/Gatling-FF9E2A?logo=gatling&logoColor=black)](#)"
+  },
+  {
+    "id": "protractor",
+    "name": "Protractor",
+    "category": "testing",
+    "category_name": {
+      "en": "Testing",
+      "id": "Pengujian"
+    },
+    "slug": "protractor",
+    "hex": "ED163A",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Protractor-ED163A?logo=protractor&logoColor=white",
+    "markdown": "[![Protractor](https://img.shields.io/badge/Protractor-ED163A?logo=protractor&logoColor=white)](#)"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer",
+    "category": "testing",
+    "category_name": {
+      "en": "Testing",
+      "id": "Pengujian"
+    },
+    "slug": "puppeteer",
+    "hex": "40B5A4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Puppeteer-40B5A4?logo=puppeteer&logoColor=white",
+    "markdown": "[![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?logo=puppeteer&logoColor=white)](#)"
+  },
+  {
+    "id": "testrail",
+    "name": "TestRail",
+    "category": "testing",
+    "category_name": {
+      "en": "Testing",
+      "id": "Pengujian"
+    },
+    "slug": "testrail",
+    "hex": "65C179",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/TestRail-65C179?logo=testrail&logoColor=white",
+    "markdown": "[![TestRail](https://img.shields.io/badge/TestRail-65C179?logo=testrail&logoColor=white)](#)"
+  },
+  {
+    "id": "algolia",
+    "name": "Algolia",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "algolia",
+    "hex": "003DFF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Algolia-003DFF?logo=algolia&logoColor=white",
+    "markdown": "[![Algolia](https://img.shields.io/badge/Algolia-003DFF?logo=algolia&logoColor=white)](#)"
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "appwrite",
+    "hex": "FD366E",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Appwrite-FD366E?logo=appwrite&logoColor=white",
+    "markdown": "[![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?logo=appwrite&logoColor=white)](#)"
+  },
+  {
+    "id": "googleappsscript",
+    "name": "Google Apps Script",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "googleappsscript",
+    "hex": "4285F4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=googleappsscript&logoColor=white",
+    "markdown": "[![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=googleappsscript&logoColor=white)](#)"
+  },
+  {
+    "id": "ifttt",
+    "name": "IFTTT",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "ifttt",
+    "hex": "000000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/IFTTT-000000?logo=ifttt&logoColor=white",
+    "markdown": "[![IFTTT](https://img.shields.io/badge/IFTTT-000000?logo=ifttt&logoColor=white)](#)"
+  },
+  {
+    "id": "jamstack",
+    "name": "Jamstack",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "jamstack",
+    "hex": "F0047F",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Jamstack-F0047F?logo=jamstack&logoColor=white",
+    "markdown": "[![Jamstack](https://img.shields.io/badge/Jamstack-F0047F?logo=jamstack&logoColor=white)](#)"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "mattermost",
+    "hex": "0058CC",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Mattermost-0058CC?logo=mattermost&logoColor=white",
+    "markdown": "[![Mattermost](https://img.shields.io/badge/Mattermost-0058CC?logo=mattermost&logoColor=white)](#)"
+  },
+  {
+    "id": "modx",
+    "name": "MODX",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "modx",
+    "hex": "102C53",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/MODX-102C53?logo=modx&logoColor=white",
+    "markdown": "[![MODX](https://img.shields.io/badge/MODX-102C53?logo=modx&logoColor=white)](#)"
+  },
+  {
+    "id": "moodle",
+    "name": "Moodle",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "moodle",
+    "hex": "F98012",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Moodle-F98012?logo=moodle&logoColor=white",
+    "markdown": "[![Moodle](https://img.shields.io/badge/Moodle-F98012?logo=moodle&logoColor=white)](#)"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "n8n",
+    "hex": "FF91AC",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/n8n-FF91AC?logo=n8n&logoColor=black",
+    "markdown": "[![n8n](https://img.shields.io/badge/n8n-FF91AC?logo=n8n&logoColor=black)](#)"
+  },
+  {
+    "id": "nodered",
+    "name": "Node-RED",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "nodered",
+    "hex": "8F0000",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Node--RED-8F0000?logo=nodered&logoColor=white",
+    "markdown": "[![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?logo=nodered&logoColor=white)](#)"
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "okta",
+    "hex": "007DC1",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Okta-007DC1?logo=okta&logoColor=white",
+    "markdown": "[![Okta](https://img.shields.io/badge/Okta-007DC1?logo=okta&logoColor=white)](#)"
+  },
+  {
+    "id": "ory",
+    "name": "Ory",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "ory",
+    "hex": "4F46E5",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ory-4F46E5?logo=ory&logoColor=white",
+    "markdown": "[![Ory](https://img.shields.io/badge/Ory-4F46E5?logo=ory&logoColor=white)](#)"
+  },
+  {
+    "id": "prestashop",
+    "name": "PrestaShop",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "prestashop",
+    "hex": "DF0067",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white",
+    "markdown": "[![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](#)"
+  },
+  {
+    "id": "sanity",
+    "name": "Sanity",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "sanity",
+    "hex": "0D0E12",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Sanity-0D0E12?logo=sanity&logoColor=white",
+    "markdown": "[![Sanity](https://img.shields.io/badge/Sanity-0D0E12?logo=sanity&logoColor=white)](#)"
+  },
+  {
+    "id": "shopware",
+    "name": "Shopware",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "shopware",
+    "hex": "189EFF",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Shopware-189EFF?logo=shopware&logoColor=white",
+    "markdown": "[![Shopware](https://img.shields.io/badge/Shopware-189EFF?logo=shopware&logoColor=white)](#)"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "webflow",
+    "hex": "146EF5",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Webflow-146EF5?logo=webflow&logoColor=white",
+    "markdown": "[![Webflow](https://img.shields.io/badge/Webflow-146EF5?logo=webflow&logoColor=white)](#)"
+  },
+  {
+    "id": "weblate",
+    "name": "Weblate",
+    "category": "platform",
+    "category_name": {
+      "en": "Platform, CMS & Service",
+      "id": "Platform, CMS & Layanan"
+    },
+    "slug": "weblate",
+    "hex": "2ECCAA",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Weblate-2ECCAA?logo=weblate&logoColor=white",
+    "markdown": "[![Weblate](https://img.shields.io/badge/Weblate-2ECCAA?logo=weblate&logoColor=white)](#)"
+  },
+  {
+    "id": "ansys",
+    "name": "Ansys",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "ansys",
+    "hex": "FFB71B",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Ansys-FFB71B?logo=ansys&logoColor=black",
+    "markdown": "[![Ansys](https://img.shields.io/badge/Ansys-FFB71B?logo=ansys&logoColor=black)](#)"
+  },
+  {
+    "id": "autodeskmaya",
+    "name": "Autodesk Maya",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "autodeskmaya",
+    "hex": "37A5CC",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Autodesk%20Maya-37A5CC?logo=autodeskmaya&logoColor=white",
+    "markdown": "[![Autodesk Maya](https://img.shields.io/badge/Autodesk%20Maya-37A5CC?logo=autodeskmaya&logoColor=white)](#)"
+  },
+  {
+    "id": "bevy",
+    "name": "Bevy",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "bevy",
+    "hex": "232326",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Bevy-232326?logo=bevy&logoColor=white",
+    "markdown": "[![Bevy](https://img.shields.io/badge/Bevy-232326?logo=bevy&logoColor=white)](#)"
+  },
+  {
+    "id": "cairographics",
+    "name": "Cairo Graphics",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "cairographics",
+    "hex": "F39914",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Cairo%20Graphics-F39914?logo=cairographics&logoColor=black",
+    "markdown": "[![Cairo Graphics](https://img.shields.io/badge/Cairo%20Graphics-F39914?logo=cairographics&logoColor=black)](#)"
+  },
+  {
+    "id": "labview",
+    "name": "LabVIEW",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "labview",
+    "hex": "FFDB00",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/LabVIEW-FFDB00?logo=labview&logoColor=black",
+    "markdown": "[![LabVIEW](https://img.shields.io/badge/LabVIEW-FFDB00?logo=labview&logoColor=black)](#)"
+  },
+  {
+    "id": "monogame",
+    "name": "MonoGame",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "monogame",
+    "hex": "E73C00",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/MonoGame-E73C00?logo=monogame&logoColor=white",
+    "markdown": "[![MonoGame](https://img.shields.io/badge/MonoGame-E73C00?logo=monogame&logoColor=white)](#)"
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "photon",
+    "hex": "004480",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Photon-004480?logo=photon&logoColor=white",
+    "markdown": "[![Photon](https://img.shields.io/badge/Photon-004480?logo=photon&logoColor=white)](#)"
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "polygon",
+    "hex": "7B3FE4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Polygon-7B3FE4?logo=polygon&logoColor=white",
+    "markdown": "[![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?logo=polygon&logoColor=white)](#)"
+  },
+  {
+    "id": "qiskit",
+    "name": "Qiskit",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "qiskit",
+    "hex": "6929C4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Qiskit-6929C4?logo=qiskit&logoColor=white",
+    "markdown": "[![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?logo=qiskit&logoColor=white)](#)"
+  },
+  {
+    "id": "sfml",
+    "name": "SFML",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "sfml",
+    "hex": "8CC445",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/SFML-8CC445?logo=sfml&logoColor=black",
+    "markdown": "[![SFML](https://img.shields.io/badge/SFML-8CC445?logo=sfml&logoColor=black)](#)"
+  },
+  {
+    "id": "sourceengine",
+    "name": "Source Engine",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "sourceengine",
+    "hex": "F79A10",
+    "logo_color": "black",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/Source%20Engine-F79A10?logo=sourceengine&logoColor=black",
+    "markdown": "[![Source Engine](https://img.shields.io/badge/Source%20Engine-F79A10?logo=sourceengine&logoColor=black)](#)"
+  },
+  {
+    "id": "thealgorithms",
+    "name": "The Algorithms",
+    "category": "other",
+    "category_name": {
+      "en": "Other",
+      "id": "Lainnya"
+    },
+    "slug": "thealgorithms",
+    "hex": "00BCB4",
+    "logo_color": "white",
+    "source": "simple-icons",
+    "url": "https://img.shields.io/badge/The%20Algorithms-00BCB4?logo=thealgorithms&logoColor=white",
+    "markdown": "[![The Algorithms](https://img.shields.io/badge/The%20Algorithms-00BCB4?logo=thealgorithms&logoColor=white)](#)"
+  }
+]

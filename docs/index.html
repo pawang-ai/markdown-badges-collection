@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Markdown Badges Collection: copy-paste Shields.io badges for GitHub README</title>
+<meta name="description" content="Search and copy Shields.io badges for your GitHub README and profile. Tech, framework and tool badges with official brand colors and Simple Icons logos.">
+<link rel="canonical" href="https://pawang-ai.github.io/markdown-badges-collection/">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Markdown Badges Collection">
+<meta property="og:description" content="Copy-paste Shields.io badges for GitHub README and profile.">
+<meta property="og:url" content="https://pawang-ai.github.io/markdown-badges-collection/">
+<meta name="color-scheme" content="light dark">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset","name":"Markdown Badges Collection","description":"Curated Shields.io badges for GitHub README files, with official brand colors and Simple Icons logos.","url":"https://pawang-ai.github.io/markdown-badges-collection/","license":"https://opensource.org/licenses/MIT","creator":{"@type":"Organization","name":"pawang-ai","url":"https://github.com/pawang-ai"},"isAccessibleForFree":true,"inLanguage":["en","id"],"keywords":["readme badges","markdown badges","shields.io","simple icons","github profile"],"distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://pawang-ai.github.io/markdown-badges-collection/badges.json"}}
+</script>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--muted:#59636e;--card:#f6f8fa;--line:#d1d9e0;--accent:#0969da}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--card:#151b23;--line:#30363d;--accent:#4493f8}}
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:env(safe-area-inset-top,0) env(safe-area-inset-right,0) env(safe-area-inset-bottom,0) env(safe-area-inset-left,0)}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.9rem;margin:0 0 8px}
+p.lead{color:var(--muted);margin:0 0 20px;max-width:70ch}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+input,select,button{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+input{flex:1 1 220px;min-width:0}
+button{cursor:pointer}
+button:hover,a:hover{border-color:var(--accent)}
+.meta{color:var(--muted);font-size:.9rem;margin:8px 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.card img{align-self:flex-start;max-width:100%;height:auto}
+.cat{color:var(--muted);font-size:.8rem}
+.card button{align-self:flex-start;font-size:.85rem;padding:5px 10px}
+footer{margin-top:40px;color:var(--muted);font-size:.9rem}
+a{color:var(--accent)}
+.sr{position:absolute;left:-9999px}
+</style>
+</head>
+<body>
+<main>
+  <div class="bar" style="justify-content:space-between">
+    <span></span>
+    <button id="lang" type="button" aria-label="Switch language">Bahasa Indonesia</button>
+  </div>
+  <h1 data-i18n="title">Markdown Badges Collection</h1>
+  <p class="lead" data-i18n="lead">Copy-paste Shields.io badges for your GitHub README and profile, with official brand colors and Simple Icons logos.</p>
+  <div class="bar">
+    <label class="sr" for="q">Search</label>
+    <input id="q" type="search" placeholder="Search a technology…" data-i18n-ph="search" autocomplete="off">
+    <label class="sr" for="cat">Category</label>
+    <select id="cat"></select>
+    <label class="sr" for="style">Style</label>
+    <select id="style">
+      <option value="">flat (default)</option>
+      <option value="flat-square">flat-square</option>
+      <option value="plastic">plastic</option>
+      <option value="for-the-badge">for-the-badge</option>
+      <option value="social">social</option>
+    </select>
+  </div>
+  <div class="meta" id="count" aria-live="polite"></div>
+  <div class="grid" id="grid"></div>
+  <footer>
+    <span data-i18n="foot">Logos and brand names belong to their respective owners.</span>
+    · <a href="https://github.com/pawang-ai/markdown-badges-collection">GitHub</a>
+    · <a href="badges.json">badges.json</a> · <a href="llms.txt">llms.txt</a>
+  </footer>
+</main>
+<script>
+const T={en:{title:"Markdown Badges Collection",lead:"Copy-paste Shields.io badges for your GitHub README and profile, with official brand colors and Simple Icons logos.",search:"Search a technology…",all:"All categories",copy:"Copy Markdown",copied:"Copied!",count:"badges",foot:"Logos and brand names belong to their respective owners.",switch:"Bahasa Indonesia"},
+id:{title:"Markdown Badges Collection",lead:"Badge Shields.io siap salin untuk README dan profil GitHub, dengan warna brand resmi dan logo Simple Icons.",search:"Cari teknologi…",all:"Semua kategori",copy:"Salin Markdown",copied:"Tersalin!",count:"badge",foot:"Logo dan nama brand adalah milik pemiliknya masing-masing.",switch:"English"}};
+let lang=(navigator.language||"en").startsWith("id")?"id":"en",data=[];
+const $=id=>document.getElementById(id);
+function t(k){return T[lang][k]}
+function applyLang(){document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(e=>e.textContent=t(e.dataset.i18n));
+  document.querySelectorAll("[data-i18n-ph]").forEach(e=>e.placeholder=t(e.dataset.i18nPh));
+  $("lang").textContent=t("switch");buildCats();render()}
+function buildCats(){const sel=$("cat"),cur=sel.value;sel.replaceChildren(new Option(t("all"),""));
+  const seen=new Map();data.forEach(b=>seen.set(b.category,b.category_name[lang]));
+  seen.forEach((n,id)=>sel.add(new Option(n,id)));sel.value=cur}
+function render(){const q=$("q").value.trim().toLowerCase(),c=$("cat").value,s=$("style").value,g=$("grid");
+  const items=data.filter(b=>(!c||b.category===c)&&(!q||b.name.toLowerCase().includes(q)||b.slug.includes(q)));
+  $("count").textContent=items.length+" "+t("count");g.replaceChildren();
+  for(const b of items){const url=b.url+(s?"&style="+s:""),md=b.markdown.replace(b.url,url);
+    const card=document.createElement("div");card.className="card";
+    const img=new Image();img.src=url;img.alt=b.name+" badge";img.loading="lazy";
+    const cat=document.createElement("span");cat.className="cat";cat.textContent=b.category_name[lang];
+    const btn=document.createElement("button");btn.type="button";btn.textContent=t("copy");
+    btn.onclick=async()=>{try{await navigator.clipboard.writeText(md);btn.textContent=t("copied");setTimeout(()=>btn.textContent=t("copy"),1200)}catch(e){prompt("Markdown",md)}};
+    card.append(img,cat,btn);g.append(card)}}
+$("lang").onclick=()=>{lang=lang==="en"?"id":"en";applyLang()};
+["q","cat","style"].forEach(id=>$(id).addEventListener("input",render));
+fetch("badges.json").then(r=>r.json()).then(d=>{data=d;applyLang()}).catch(()=>{$("count").textContent="Could not load badges.json"});
+</script>
+</body>
+</html>
