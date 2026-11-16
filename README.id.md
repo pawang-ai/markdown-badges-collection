@@ -17,6 +17,7 @@
 ## Daftar Isi
 
 - [Mulai cepat](#mulai-cepat)
+- [Mengapa koleksi ini](#mengapa-koleksi-ini)
 - [Katalog badge](#katalog-badge)
 - [FAQ](#faq)
 - [Kontribusi](#kontribusi)
@@ -36,6 +37,17 @@ Struktur setiap badge:
 ```
 
 Ingin tampilan lain? Tambahkan `&style=for-the-badge`, `&style=flat-square`, `&style=plastic` atau `&style=social` di akhir URL gambar.
+
+## Mengapa koleksi ini
+
+markdown-badges-collection membantu developer menjaga bagian tech stack di README tetap rapi, baik menulis dalam Bahasa Inggris maupun Bahasa Indonesia.
+
+- Setiap badge memakai warna brand resmi dan logo [Simple Icons](https://simpleicons.org).
+- Satu file YAML ([`data/badges.yml`](data/badges.yml)) menghasilkan README, data JSON, dan situs, sehingga tidak pernah berbeda.
+- CI memvalidasi setiap slug logo terhadap Simple Icons di setiap pull request dan setiap minggu.
+- Dokumentasi lengkap dalam Bahasa Inggris dan Bahasa Indonesia.
+- Data yang bisa dibaca mesin tersedia sebagai [`badges.json`](https://pawang-ai.github.io/markdown-badges-collection/badges.json) dan [`llms.txt`](https://pawang-ai.github.io/markdown-badges-collection/llms.txt).
+- Data katalog dan tooling berlisensi MIT.
 
 ## Katalog badge
 
@@ -335,27 +347,23 @@ Ingin tampilan lain? Tambahkan `&style=for-the-badge`, `&style=flat-square`, `&s
 
 ### Bagaimana cara menambahkan badge ke README GitHub?
 
-Salin potongan Markdown dari katalog ini lalu tempel ke `README.md`. GitHub akan menampilkannya sebagai gambar secara otomatis. Ganti `(#)` dengan URL tujuan badge, atau hapus pembungkus tautannya jika hanya ingin gambar.
+Salin potongan Markdown di samping badge lalu tempel ke file `README.md`. GitHub akan menampilkannya sebagai gambar secara otomatis. Ganti `(#)` di bagian akhir dengan alamat yang ingin dibuka saat badge diklik, atau hapus pembungkus tautannya jika hanya ingin gambar. Commit file tersebut lalu segarkan halaman repositori.
 
 ### Apa itu badge Shields.io?
 
-Badge Shields.io adalah gambar SVG kecil yang dibuat langsung dari sebuah URL. Badge statis seperti di sini hanya butuh label, warna, dan logo opsional, jadi tidak akan basi dan tidak memerlukan API.
+Badge Shields.io adalah gambar SVG kecil yang dibuat langsung dari sebuah URL. Badge statis seperti di koleksi ini hanya butuh label, warna, dan logo opsional, jadi tidak akan basi dan tidak memerlukan API. Tempel URL-nya dengan sintaks gambar Markdown, maka GitHub akan menampilkannya.
 
 ### Mengapa logo pada badge saya tidak muncul?
 
-Nilai `logo=` harus berupa slug Simple Icons yang valid. Shields.io memakai salinan Simple Icons sendiri, sehingga brand yang dihapus atau diganti nama di sumbernya bisa kehilangan logo. [Buka issue](https://github.com/pawang-ai/markdown-badges-collection/issues/new/choose) dan kami akan memperbaiki entrinya.
+Parameter logo harus berupa slug Simple Icons yang valid. Shields.io memakai salinan Simple Icons sendiri, jadi brand yang diganti nama atau dihapus di sumbernya bisa kehilangan logo. Periksa slug di simpleicons.org, lalu buka issue di repositori ini agar entrinya bisa segera diperbaiki.
 
 ### Bisakah saya mengubah warna atau gaya badge?
 
-Bisa. Ubah nilai hex enam digit setelah label ke warna apa pun, dan tambahkan `&style=` dengan `flat`, `flat-square`, `plastic`, `for-the-badge` atau `social`. Pakai `logoColor=white` pada warna gelap dan `logoColor=black` pada warna terang agar kontrasnya terbaca.
+Bisa. Ganti nilai hex enam digit setelah label dengan warna apa pun, dan tambahkan `&style=` dengan flat, flat-square, plastic, for-the-badge, atau social. Pakai `logoColor=white` pada warna gelap dan `logoColor=black` pada warna terang agar logo tetap terbaca. Halaman katalog memungkinkan kamu melihat tiap gaya sebelum menyalin.
 
 ### Bolehkah badge ini dipakai di proyek komersial?
 
-Data katalog dan tooling berlisensi MIT. Logo dan nama brand adalah milik pemiliknya masing-masing, jadi ikuti pedoman tiap brand saat menampilkannya.
-
-### Bagaimana cara meminta badge baru?
-
-Gunakan form issue [Add a badge](https://github.com/pawang-ai/markdown-badges-collection/issues/new/choose), atau kirim pull request yang menambah satu baris di [`data/badges.yml`](data/badges.yml). Lihat [CONTRIBUTING.md](CONTRIBUTING.md).
+Bisa untuk data katalog dan tooling yang berlisensi MIT. Logo dan nama brand adalah milik pemiliknya, jadi ikuti pedoman tiap brand saat menampilkannya. Proyek ini tidak berafiliasi dengan atau didukung oleh brand mana pun yang terdaftar, dan tidak memberikan hak atas merek dagang apa pun.
 
 ## Kontribusi
 

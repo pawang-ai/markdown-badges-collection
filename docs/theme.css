@@ -1,0 +1,65 @@
+/* Pawang Lencana theme tokens: single source for the site.
+   Follows the system setting by default; force a mode with <html data-theme="light|dark">.
+   Contrast (WCAG, measured with check_theme.py):
+   Light: text/bg 13.89, muted/bg 5.64, muted/panel 4.85, link/bg 5.84, link/panel 5.02, on-accent/accent 6.28
+   Dark:  text/bg 16.19, muted/bg 8.36, muted/panel 7.17, link/bg 7.32, link/panel 6.28, grip/bg 5.10, grip/panel 4.37
+   Never use --color-accent as text on a light background (2.21:1); use --color-link. */
+:root {
+  --color-primary: #142843;       /* Biru Rompi */
+  --color-accent: #F78E36;        /* Jingga Lencana: primary action, sparkle */
+  --color-bg: #FAF7F1;            /* Krem Kain: canvas */
+  --color-support: #EDE6D6;       /* Pasir Kain: panels, shelves, tray */
+  --color-text: #142843;
+  --color-text-muted: #58637A;    /* Abu Tali */
+  --color-link: #A34305;          /* Jingga Tua */
+  --color-on-accent: #142843;
+  --color-control-border: #58637A;/* inputs and buttons (3:1+) */
+  --color-decor-border: #CFC6B2;  /* decorative lines only */
+  --color-grip: #58637A;          /* drag-handle bars (3:1+) */
+  --color-focus: #142843;
+  --color-picked: #A34305;        /* selection ring (3:1+) */
+  --shadow-sheet: 0 -8px 24px rgb(20 40 67 / 0.12);
+
+  --font-heading: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --radius-card: 10px;
+  --radius-control: 8px;
+  --radius-badge: 4px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-primary: #FAF7F1;
+    --color-bg: #0D1B2E;          /* Malam Rompi */
+    --color-support: #142843;     /* Biru Rompi */
+    --color-text: #FAF7F1;
+    --color-text-muted: #A9B5C9;  /* Kabut Rompi */
+    --color-link: #F78E36;
+    --color-control-border: #A9B5C9;
+    --color-decor-border: #24395A;
+    --color-grip: #7F8CA3;
+    --color-focus: #F78E36;
+    --color-picked: #F78E36;
+    --shadow-sheet: 0 -8px 24px rgb(0 0 0 / 0.35);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-primary: #FAF7F1;
+  --color-bg: #0D1B2E;
+  --color-support: #142843;
+  --color-text: #FAF7F1;
+  --color-text-muted: #A9B5C9;
+  --color-link: #F78E36;
+  --color-control-border: #A9B5C9;
+  --color-decor-border: #24395A;
+  --color-grip: #7F8CA3;
+  --color-focus: #F78E36;
+  --color-picked: #F78E36;
+  --shadow-sheet: 0 -8px 24px rgb(0 0 0 / 0.35);
+  color-scheme: dark;
+}

@@ -41,6 +41,18 @@ We use [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-
 
 Never edit `README.md`, `README.id.md`, `docs/badges.json` or `docs/llms.txt` outside the marked sections; the generator owns them. Be kind: see the [Code of Conduct](CODE_OF_CONDUCT.md).
 
+### Releasing (maintainers)
+
+Releases are created from GitHub Actions, never by hand. Go to **Actions → Release → Run workflow** on `main` and choose the bump:
+
+| Bump | Use it for | Example |
+|---|---|---|
+| `patch` | Fixes and small data corrections | `v0.1.0` → `v0.1.1` |
+| `minor` | New badges, categories or features | `v0.1.1` → `v0.2.0` |
+| `major` | Breaking changes (renamed ids, changed `badges.json` schema) | `v0.2.0` → `v1.0.0` |
+
+The workflow requires green CI on the commit, creates the `vX.Y.Z` tag and publishes a GitHub release with generated notes. Tick **dry_run** to preview the next version without releasing. Move the finished items from `[Unreleased]` to a new version heading in `CHANGELOG.md` in the pull request that precedes the release.
+
 ## Kontribusi (Bahasa Indonesia)
 
 Terima kasih sudah membantu! Sebagian besar kontribusi cukup satu baris di `data/badges.yml`.
@@ -65,3 +77,15 @@ Terima kasih sudah membantu! Sebagian besar kontribusi cukup satu baris di `data
 Kami memakai [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow): buat branch dari `main`, buka pull request, lalu squash-merge setelah CI lulus. Pesan commit mengikuti [Conventional Commits](https://www.conventionalcommits.org), misalnya `feat(badges): add Apache Kafka`.
 
 Jangan mengedit `README.md`, `README.id.md`, `docs/badges.json`, atau `docs/llms.txt` di luar bagian yang bertanda; generator yang mengelolanya. Bersikaplah baik: lihat [Code of Conduct](CODE_OF_CONDUCT.md).
+
+### Rilis (maintainer)
+
+Rilis dibuat lewat GitHub Actions, bukan manual. Buka **Actions → Release → Run workflow** di `main`, lalu pilih jenis kenaikan versi:
+
+| Bump | Dipakai untuk | Contoh |
+|---|---|---|
+| `patch` | Perbaikan dan koreksi data kecil | `v0.1.0` → `v0.1.1` |
+| `minor` | Badge, kategori, atau fitur baru | `v0.1.1` → `v0.2.0` |
+| `major` | Perubahan yang merusak kompatibilitas (id diganti, skema `badges.json` berubah) | `v0.2.0` → `v1.0.0` |
+
+Workflow mewajibkan CI hijau pada commit tersebut, membuat tag `vX.Y.Z`, dan menerbitkan GitHub release dengan catatan otomatis. Centang **dry_run** untuk melihat versi berikutnya tanpa merilis. Pindahkan item yang selesai dari `[Unreleased]` ke heading versi baru di `CHANGELOG.md` lewat pull request sebelum rilis.

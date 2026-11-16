@@ -5,6 +5,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## [Unreleased]
 
+### Added
+
+- "Pawang Lencana" theme: design tokens in `docs/theme.css` with light and dark modes (WCAG AA contrast measured). Follows the system setting and can be forced with `data-theme`.
+- Workbench site (`docs/index.html`, plain HTML/CSS/JS, no build step): category shelves, a README tray with copy-all, remove, clear with undo, reordering by drag or arrow keys, a badge style picker with live preview, a light/dark toggle, EN/ID switch, a `/` search shortcut and a mobile bottom sheet.
+- SEO, AEO and GEO foundations for the site: keyword-aligned title and description, Open Graph and Twitter cards, `FAQPage` JSON-LD, `sitemap.xml`, `og-image.png`, a "Why this collection" section and a `noscript` fallback.
+- Five FAQ entries (40-60 words each) on the site and in both READMEs.
+
+### Changed
+
+- Site rebuilt around the Workbench layout; hero copy follows the new tone of voice.
+- Dark-mode drag-handle color raised to meet 3:1 non-text contrast (was 2.87:1 on the canvas, 2.46:1 on the panel).
+
 ## [0.1.0] - 2026-11-16
 
 ### Added
