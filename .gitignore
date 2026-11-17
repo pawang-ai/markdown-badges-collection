@@ -76,3 +76,4 @@ htmlcov/
 .python-version
 Pipfile.lock
 poetry.lock
+*.zip
