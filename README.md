@@ -17,6 +17,7 @@
 ## Table of Contents
 
 - [Quick start](#quick-start)
+- [Why this collection](#why-this-collection)
 - [Badge catalog](#badge-catalog)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -36,6 +37,17 @@ Anatomy of every badge:
 ```
 
 Want a different look? Append `&style=for-the-badge`, `&style=flat-square`, `&style=plastic` or `&style=social` to the image URL.
+
+## Why this collection
+
+markdown-badges-collection helps developers keep the tech-stack section of a README tidy, whether they write in English or Bahasa Indonesia.
+
+- Every badge uses the official brand color and the [Simple Icons](https://simpleicons.org) logo.
+- One YAML file ([`data/badges.yml`](data/badges.yml)) generates the README, the JSON data and the site, so they never drift apart.
+- CI validates every logo slug against Simple Icons on each pull request and every week.
+- Documentation is complete in English and Bahasa Indonesia.
+- Machine-readable data is available as [`badges.json`](https://pawang-ai.github.io/markdown-badges-collection/badges.json) and [`llms.txt`](https://pawang-ai.github.io/markdown-badges-collection/llms.txt).
+- The catalog data and tooling are MIT licensed.
 
 ## Badge catalog
 
@@ -335,27 +347,23 @@ Want a different look? Append `&style=for-the-badge`, `&style=flat-square`, `&st
 
 ### How do I add a badge to my GitHub README?
 
-Copy the Markdown snippet from this catalog and paste it into your `README.md`. GitHub renders it as an image automatically. Replace `(#)` with the URL you want the badge to link to, or remove the link wrapper if you want a plain image.
+Copy the Markdown snippet next to the badge and paste it into your `README.md` file. GitHub renders it as an image automatically. Replace the `(#)` at the end with the address you want the badge to open, or delete the link wrapper to keep a plain image. Commit the file and refresh your repository page.
 
 ### What is a Shields.io badge?
 
-A Shields.io badge is a small SVG image generated on demand from a URL. Static badges, like the ones here, only need a label, a color and an optional logo, so they never go stale or require an API.
+A Shields.io badge is a small SVG image generated on demand from a URL. Static badges, like the ones in this collection, need only a label, a color and an optional logo, so they never go stale and need no API. Paste the URL with Markdown image syntax and GitHub displays it.
 
 ### Why is the logo missing on my badge?
 
-The `logo=` value must be a valid Simple Icons slug. Shields.io keeps its own copy of Simple Icons, so a brand removed or renamed upstream can lose its logo. [Open an issue](https://github.com/pawang-ai/markdown-badges-collection/issues/new/choose) and we will fix the entry.
+The logo parameter must be a valid Simple Icons slug. Shields.io keeps its own copy of Simple Icons, so a brand that was renamed or removed upstream can lose its logo. Check the slug at simpleicons.org, then open an issue in this repository so the entry can be corrected quickly.
 
-### Can I change the badge color or style?
+### Can I change the color or style of a badge?
 
-Yes. Change the six-digit hex value after the label to any color, and add `&style=` with `flat`, `flat-square`, `plastic`, `for-the-badge` or `social`. Use `logoColor=white` on dark colors and `logoColor=black` on light ones for readable contrast.
+Yes. Replace the six-digit hex value after the label with any color, and add `&style=` with flat, flat-square, plastic, for-the-badge or social. Use `logoColor=white` on dark colors and `logoColor=black` on light colors so the logo stays readable. The catalog page lets you preview each style before copying.
 
 ### Can I use these badges in commercial projects?
 
-The catalog data and tooling are MIT licensed. The logos and brand names belong to their respective owners, so follow each brand's guidelines when you display them.
-
-### How do I request a new badge?
-
-Use the [Add a badge](https://github.com/pawang-ai/markdown-badges-collection/issues/new/choose) issue form, or send a pull request that adds one line to [`data/badges.yml`](data/badges.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
+Yes for the catalog data and tooling, which are MIT licensed. Logos and brand names belong to their owners, so follow each brand's guidelines when you display them. This project is not affiliated with or endorsed by any listed brand, and it does not grant rights to any trademark.
 
 ## Contributing
 

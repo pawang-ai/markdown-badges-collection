@@ -1,18 +1,84 @@
 name: Release
 
+# Manual, one-click semantic-version release.
+# Actions -> Release -> Run workflow -> choose patch / minor / major.
+# The git tag is the single source of truth for the version.
+
 on:
-  push:
-    tags: ["v*.*.*"]
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump (SemVer): patch = fix, minor = new badges/features, major = breaking change"
+        type: choice
+        options: [patch, minor, major]
+        default: patch
+      dry_run:
+        description: "Only show the next version, do not create a release"
+        type: boolean
+        default: false
 
 permissions:
-  contents: write
+  contents: write   # create the tag and the GitHub release
+  actions: read     # read CI results for the commit being released
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
   release:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - name: Create GitHub release with generated notes
+        with:
+          fetch-depth: 0
+
+      - name: Compute next version
+        id: version
+        env:
+          BUMP: ${{ inputs.bump }}
+        run: |
+          latest=$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1)
+          latest=${latest:-v0.0.0}
+          IFS=. read -r major minor patch <<< "${latest#v}"
+          case "$BUMP" in
+            major) major=$((major + 1)); minor=0; patch=0 ;;
+            minor) minor=$((minor + 1)); patch=0 ;;
+            patch) patch=$((patch + 1)) ;;
+          esac
+          next="v${major}.${minor}.${patch}"
+          if git rev-parse -q --verify "refs/tags/${next}" >/dev/null; then
+            echo "::error::Tag ${next} already exists"
+            exit 1
+          fi
+          echo "previous=${latest}" >> "$GITHUB_OUTPUT"
+          echo "next=${next}" >> "$GITHUB_OUTPUT"
+          echo "### Release plan" >> "$GITHUB_STEP_SUMMARY"
+          echo "\`${latest}\` -> **\`${next}\`** (${BUMP})" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Require green CI on this commit
+        if: ${{ !inputs.dry_run }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create "$GITHUB_REF_NAME" --generate-notes --title "$GITHUB_REF_NAME"
+        run: |
+          passed=$(gh run list --workflow ci.yml --commit "$GITHUB_SHA" \
+            --status success --json databaseId --jq 'length')
+          if [ "$passed" -lt 1 ]; then
+            echo "::error::CI has not passed on ${GITHUB_SHA}. Wait for it to finish, then re-run."
+            exit 1
+          fi
+
+      - name: Create tag and GitHub release
+        if: ${{ !inputs.dry_run }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEXT: ${{ steps.version.outputs.next }}
+          PREVIOUS: ${{ steps.version.outputs.previous }}
+        run: |
+          args=(--target "$GITHUB_SHA" --title "$NEXT" --generate-notes)
+          if [ "$PREVIOUS" != "v0.0.0" ]; then
+            args+=(--notes-start-tag "$PREVIOUS")
+          fi
+          gh release create "$NEXT" "${args[@]}"
+          echo "Released **${NEXT}**: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/tag/${NEXT}" >> "$GITHUB_STEP_SUMMARY"
