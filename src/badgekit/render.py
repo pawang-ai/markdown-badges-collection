@@ -9,6 +9,7 @@ from urllib.parse import quote
 
 from .models import Badge, Catalog
 
+MAX_BADGE_URL_LENGTH = 3000
 REPO = "pawang-ai/markdown-badges-collection"
 SITE = "https://pawang-ai.github.io/markdown-badges-collection/"
 
@@ -28,11 +29,16 @@ def logo_param(badge: Badge, catalog: Catalog) -> str:
 
 
 def badge_url(badge: Badge, catalog: Catalog, style: str | None = None) -> str:
-    """Build the Shields.io URL for ``badge``."""
-    url = (
-        f"https://img.shields.io/badge/{escape_label(badge.name)}-{badge.hex.upper()}"
-        f"?logo={logo_param(badge, catalog)}&logoColor={badge.logo_color}"
-    )
+    """Build the Shields.io URL for ``badge``.
+
+    The logo value is percent-encoded: a raw ``+`` in a query string is read as a space, which
+    would corrupt a base64 data URI. Shields.io cannot recolor custom logos, so ``logoColor`` is
+    only sent for Simple Icons logos (custom logos have their color baked into the SVG).
+    """
+    logo = quote(logo_param(badge, catalog), safe="")
+    url = f"https://img.shields.io/badge/{escape_label(badge.name)}-{badge.hex.upper()}?logo={logo}"
+    if badge.source != "custom":
+        url += f"&logoColor={badge.logo_color}"
     return f"{url}&style={style}" if style else url
 
 
@@ -123,10 +129,13 @@ def render_llms_txt(catalog: Catalog) -> str:
         "# markdown-badges-collection",
         "",
         "> Copy-paste Shields.io badges for GitHub README and profile: tech, framework and "
-        "tool badges with official brand colors and Simple Icons logos.",
+        "tool badges with official brand colors and logos from Simple Icons and devicon.",
         "",
         f"This catalog has {render_stats(catalog, 'en')}. Each badge is a static Shields.io "
-        "badge: `https://img.shields.io/badge/<Name>-<HEX>?logo=<simple-icons-slug>&logoColor=<white|black>`.",
+        "badge: `https://img.shields.io/badge/<Name>-<HEX>"
+        "?logo=<simple-icons-slug>&logoColor=<white|black>`. "
+        "Badges whose logo is missing from Simple Icons embed a single-color SVG from devicon as a "
+        "base64 data URI instead.",
         "",
         "## Resources",
         f"- [Searchable catalog]({SITE}): browse, filter and copy badges",

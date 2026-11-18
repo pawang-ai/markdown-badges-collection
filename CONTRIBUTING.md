@@ -33,7 +33,8 @@ Thanks for helping! Most contributions are one line in `data/badges.yml`.
 - The product is a real, widely used technology, tool or service.
 - `name` is the official product name; `hex` is the official brand color from Simple Icons.
 - No duplicates: `badgekit validate` rejects repeated ids, names and slugs.
-- Logos missing from Simple Icons can be added with `source: custom` and a `logo_file` under `assets/logos/` (SVG you have the right to use).
+- Logos missing from Simple Icons can be added with `source: custom` and a single-color SVG under `assets/logos/` (see [`assets/logos/README.md`](assets/logos/README.md)). Shields.io cannot recolor custom logos, so bake the color into the file. `badgekit validate` rejects unsafe SVGs and any badge URL longer than 3000 characters.
+- After merging new badges, run **Actions → Probe badges** to confirm each one renders with its logo on Shields.io.
 
 ### Workflow and commits
 
@@ -70,7 +71,8 @@ Terima kasih sudah membantu! Sebagian besar kontribusi cukup satu baris di `data
 - Produknya teknologi, tool, atau layanan nyata yang banyak dipakai.
 - `name` adalah nama resmi produk; `hex` adalah warna brand resmi dari Simple Icons.
 - Tidak boleh duplikat: `badgekit validate` menolak id, nama, dan slug yang berulang.
-- Logo yang tidak ada di Simple Icons bisa ditambahkan dengan `source: custom` dan `logo_file` di `assets/logos/` (SVG yang kamu berhak pakai).
+- Logo yang tidak ada di Simple Icons bisa ditambahkan dengan `source: custom` dan SVG satu warna di `assets/logos/` (lihat [`assets/logos/README.md`](assets/logos/README.md)). Shields.io tidak bisa mewarnai ulang logo custom, jadi tanamkan warnanya di file. `badgekit validate` menolak SVG yang tidak aman dan URL badge yang lebih panjang dari 3000 karakter.
+- Setelah badge baru ter-merge, jalankan **Actions → Probe badges** untuk memastikan tiap badge tampil beserta logonya di Shields.io.
 
 ### Alur kerja dan commit
 

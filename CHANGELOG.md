@@ -5,6 +5,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 ## [Unreleased]
 
+### Added
+
+- 120 badges with custom logos from devicon (MIT) for technologies Simple Icons lacks, such as Adobe Photoshop, Illustrator and After Effects, Heroku, MATLAB, Twilio, DynamoDB and Xamarin. Three new categories: Design & Creative, AI & Data Science, Cloud & Hosting.
+- `badgekit probe`, a weekly and on-demand workflow ("Probe badges") that asks Shields.io to render every badge and checks that its logo shows.
+- Validation for custom logos: SVG safety (no scripts, images, external references or entities), a 20 KB file limit and a 3000-character badge URL budget.
+- `badgekit check` fails if a README grows past 450 KiB (GitHub stops rendering at 500 KiB).
+- Google Search Console verification tag, a Pawang Dev credit in both READMEs, and a Discussions link in the issue chooser.
+
+### Fixed
+
+- Custom logo data URIs are now percent-encoded; a raw `+` in a query string is read as a space and corrupts base64.
+- `logoColor` is no longer sent for custom logos, which Shields.io cannot recolor.
+
 ## [0.1.0] - 2026-11-17
 
 ### Added
