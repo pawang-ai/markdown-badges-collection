@@ -39,7 +39,7 @@ def test_badge_url_and_markdown(repo: Path) -> None:
     assert badge_markdown(zig, catalog).startswith("[![Zig](https://img.shields.io/badge/Zig-")
 
 
-def test_custom_logo_is_base64(repo: Path) -> None:
+def test_custom_logo_is_percent_encoded_without_logocolor(repo: Path) -> None:
     (repo / "assets" / "logos").mkdir(parents=True)
     (repo / "assets" / "logos" / "x.svg").write_text("<svg/>", encoding="utf-8")
     (repo / "data" / "badges.yml").write_text(
@@ -49,7 +49,10 @@ def test_custom_logo_is_base64(repo: Path) -> None:
         encoding="utf-8",
     )
     catalog = load_catalog(repo / "data" / "badges.yml")
-    assert "logo=data:image/svg+xml;base64,PHN2Zy8+" in badge_url(catalog.badges[0], catalog)
+    url = badge_url(catalog.badges[0], catalog)
+    assert "logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2Zy8%2B" in url
+    assert "+" not in url.split("logo=")[1]  # a raw '+' would be read as a space
+    assert "logoColor" not in url  # Shields.io cannot recolor custom logos
 
 
 def test_tables_are_localized_and_skip_empty_categories(repo: Path) -> None:

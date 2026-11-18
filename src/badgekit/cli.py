@@ -1,4 +1,4 @@
-"""Command-line interface: ``badgekit build | check | validate | stats``."""
+"""Command-line interface: ``badgekit build | check | validate | probe | stats``."""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ from pathlib import Path
 from . import __version__
 from .loader import load_catalog
 from .models import Catalog, DataError
+from .probe import SHIELDS, probe_catalog
 from .render import (
     inject,
     render_llms_txt,
@@ -24,6 +25,8 @@ from .validate import load_simple_icons_slugs, validate
 logger = logging.getLogger("badgekit")
 
 READMES = {"en": "README.md", "id": "README.id.md"}
+# GitHub stops rendering a README after 500 KiB; fail well before that.
+README_MAX_BYTES = 450 * 1024
 
 
 def build_outputs(root: Path, catalog: Catalog) -> dict[Path, str]:
@@ -84,7 +87,33 @@ def cmd_check(root: Path, simple_icons: str | None) -> int:
     ]
     for p in stale:
         logger.error("%s is out of date; run `badgekit build`", p)
-    return 1 if code or stale else 0
+    too_big = [
+        (p.relative_to(root), len(c.encode()))
+        for p, c in outputs.items()
+        if p.name in READMES.values() and len(c.encode()) > README_MAX_BYTES
+    ]
+    for p, size in too_big:
+        logger.error(
+            "%s is %d KiB (limit %d KiB); move the catalog out of the README",
+            p,
+            size // 1024,
+            README_MAX_BYTES // 1024,
+        )
+    return 1 if code or stale or too_big else 0
+
+
+def cmd_probe(root: Path, args: argparse.Namespace) -> int:
+    """Ask Shields.io to render every badge and confirm each one shows its logo."""
+    catalog = _load(root)
+    checked, failures = probe_catalog(
+        catalog, base_url=args.base_url, only=args.only, limit=args.limit, workers=args.workers
+    )
+    for f in failures:
+        logger.error("%s: %s", f.badge_id, f.reason)
+    logger.info(
+        "probed %d badges: %d ok, %d failed", checked, checked - len(failures), len(failures)
+    )
+    return 1 if failures else 0
 
 
 def cmd_stats(root: Path) -> int:
@@ -110,6 +139,11 @@ def main(argv: list[str] | None = None) -> int:
     ):
         p = sub.add_parser(name, help=text)
         p.add_argument("--simple-icons", help="path or https URL of simple-icons.json")
+    pr = sub.add_parser("probe", help="render every badge on Shields.io and check the logo shows")
+    pr.add_argument("--only", choices=["simple-icons", "custom"], help="probe one logo source")
+    pr.add_argument("--limit", type=int, help="probe only the first N badges")
+    pr.add_argument("--workers", type=int, default=6)
+    pr.add_argument("--base-url", default=SHIELDS, help="use a different Shields.io server")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -120,6 +154,8 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_validate(args.root, args.simple_icons)
         if args.command == "check":
             return cmd_check(args.root, args.simple_icons)
+        if args.command == "probe":
+            return cmd_probe(args.root, args)
         return cmd_stats(args.root)
     except (DataError, ValueError, OSError) as exc:
         logger.error("error: %s", exc)
